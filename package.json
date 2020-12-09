@@ -8,5 +8,55 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "limioProps": [
+    {
+      "id": "headline",
+      "label": "Headline",
+      "type": "string",
+      "default": "Students 3 months of Premium for £0.99."
+    },
+    {
+      "id": "subline",
+      "label": "Subline",
+      "type": "string",
+      "default": "Only £4.99/month after. Cancel anytime."
+    },
+    {
+      "id": "image_href",
+      "label": "Image href",
+      "type": "string",
+      "default": "https://campaigns.scdn.co/images/Desktop%20Asset%20-%20Student.jpg"
+    },
+    {
+      "id": "cta_text",
+      "label": "CTA Text",
+      "type": "string",
+      "default": "Get Premium"
+    },
+    {
+      "id": "cta_href",
+      "label": "CTA href",
+      "type": "string",
+      "default": "/purchase/campaign/student"
+    },
+    {
+      "id": "terms_summary",
+      "label": "Terms summary",
+      "type": "string",
+      "default": "Offer not available to users who already tried Premium. Offer ends 30 Jun 2020."
+    },
+    {
+      "id": "detailed_terms_href",
+      "label": "Terms href",
+      "type": "string",
+      "default": "/legal/student-intro-offer-terms-and-conditions"
+    },
+    {
+      "id": "componentId",
+      "label": "Component Id",
+      "type": "string",
+      "default": "cta-banner-limio"
+    }
+  ]
 }
